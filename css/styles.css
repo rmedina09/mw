@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.menu{
+	display: block;
+	border-style: none;
+	width: 99%;
+	height: 10%;
+	background-color: #4682B4;
+}
+
+.barra{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+}
+
+.barra_li{
+	float: right;
+}
+
+.barra_lr{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.busqueda {
+	float: right;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	margin: .5%;
+}
+
+.logos {
+	float: right;
+	width: 5%;
+}
+
+.input_busqueda {
+	width: 70%;
+	height: 80%;
+}
+
+.logo_lupa {
+	border-style: groove;
+	border-color: #87CEFA;
+	border-width: thin;
+	width: 25%;
+	height:auto;
+}
+
+.barra_a{
+	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 16px 16px;
+  	text-decoration: none;
+}
+
+.logo {
+	border-style: groove;
+	border-color: #87CEFA;
+	border-width: thin;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.logo_foot {
+	display: block;
+	margin: 10%;
+	width: 80%;
+	height: 80%;
+}
+
+.div_1{	
+	border-style: groove;
+	border-color: #87CEFA;
+	border-width: thin;
+	width: 99%;
+	height: 30%;
+}
+
+.div_2{
+	width: 100.5%;
+	height: 40%;
+}
+
+.titulo{
+	float: left;
+	/*border-style: solid;*/
+	width: 35%;
+	height: 100%;
+	background-color: #98FB98;
+	padding: .2%;
+	margin-right:auto;
+	
+}
+
+.titulo_texto{
+	text-align: center; 
+	font-family: Arial Black; 
+	font-weight: bold; 
+	font-size: 200%; 
+	background: #202020; 
+	-webkit-background-clip: text; 
+	-moz-background-clip: text; 
+	background-clip: text; 
+	color: transparent; 
+	text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
+
+.titulo_img{
+	float: left;
+	/*border-style: solid;*/
+	width: 64%;
+	height: 100%;
+	background-image: url('../images/cabecera_mujeres.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: .2%;
+	margin-right:auto;
+}
+
+.texto{
+	float: left;
+	border-style: none;
+	width: 57%;
+	height: 100%;
+	padding: 5px;
+	text-align: justify;
+}
+
+.enlace_img{
+	float: left;
+	border-style: none;
+	width: 21.5%;
+	height: 100%;	
+}
+
+.enlace{
+	border-style: none;	
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	padding: 5px;
+}
+
+.img_link{
+	border-style: groove;
+	border-color: #87CEFA;
+	border-width: thin;
+	width: 90%;
+	height: 80%;
+}
+
+.imagen{
+	border-style: none;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	padding: 5px;
+}
+
+.img_power{
+	border-style: groove;
+	border-color: #87CEFA;
+	border-width: thin;
+	width: 90%;
+	height: 100%;
+}
+
+.otros{
+	float: left;
+	border-style: groove;
+	border-color: #87CEFA;
+	border-width: thin;
+	background-color: #00CED1;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	padding: 10px;	
+}
+
+.opciones{
+	text-align: left;
+}
+
+.div_1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.div_2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+	display: block;
+	border-style: none;
+	width: 99%;
+	height: 10%;
+	background-color: #4682B4;
+}
